@@ -2,9 +2,9 @@
 
 namespace Guava\NotificationPresetsForLaravel\Tests;
 
+use Guava\NotificationPresetsForLaravel\NotificationPresetsForLaravelServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Guava\NotificationPresetsForLaravel\NotificationPresetsForLaravelServiceProvider;
 
 class TestCase extends Orchestra
 {

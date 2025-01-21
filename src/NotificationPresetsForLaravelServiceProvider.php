@@ -2,9 +2,9 @@
 
 namespace Guava\NotificationPresetsForLaravel;
 
+use Guava\NotificationPresetsForLaravel\Commands\NotificationPresetsForLaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Guava\NotificationPresetsForLaravel\Commands\NotificationPresetsForLaravelCommand;
 
 class NotificationPresetsForLaravelServiceProvider extends PackageServiceProvider
 {
