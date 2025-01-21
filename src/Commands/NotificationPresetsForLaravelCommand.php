@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Guava\NotificationPresetsForLaravel\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class NotificationPresetsForLaravelCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'notification-presets-for-laravel';
 
     public $description = 'My command';
 
