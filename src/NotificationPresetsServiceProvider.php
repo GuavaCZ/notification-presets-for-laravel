@@ -3,10 +3,11 @@
 namespace Guava\NotificationPresetsForLaravel;
 
 use Guava\NotificationPresetsForLaravel\Commands\NotificationPresetsForLaravelCommand;
+use Guava\NotificationPresetsForLaravel\Providers\EventServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class NotificationPresetsForLaravelServiceProvider extends PackageServiceProvider
+class NotificationPresetsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,11 +17,15 @@ class NotificationPresetsForLaravelServiceProvider extends PackageServiceProvide
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('notification-presets-for-laravel')
+            ->name('notification-presets')
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_notification-presets-for-laravel_table')
-            ->hasCommand(NotificationPresetsForLaravelCommand::class)
         ;
+    }
+
+    public function registeringPackage(): void
+    {
+        $this->app->register(EventServiceProvider::class);
     }
 }

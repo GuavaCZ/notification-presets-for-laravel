@@ -1,12 +1,12 @@
 {
-    "name": "guava/notification-presets-for-laravel",
-    "description": "Adds ability to manage notification presets for any model.",
+    "name": "guava/notification-presets",
+    "description": "Adds ability to manage notification presets for any laravel model.",
     "keywords": [
         "Guava",
         "laravel",
         "notification-presets-for-laravel"
     ],
-    "homepage": "https://github.com/guavaCZ/notification-presets-for-laravel",
+    "homepage": "https://github.com/GuavaCZ/notification-presets-for-laravel",
     "license": "MIT",
     "authors": [
         {
@@ -78,7 +78,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Guava\\NotificationPresetsForLaravel\\NotificationPresetsForLaravelServiceProvider"
+                "NotificationPresetsServiceProvider"
             ],
             "aliases": {
                 "NotificationPresetsForLaravel": "Guava\\NotificationPresetsForLaravel\\Facades\\NotificationPresetsForLaravel"
