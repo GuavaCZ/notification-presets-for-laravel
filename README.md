@@ -4,8 +4,8 @@
 # Adds ability to manage notification presets for any model.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/guava/notification-presets-for-laravel.svg?style=flat-square)](https://packagist.org/packages/guava/notification-presets-for-laravel)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/guava/notification-presets-for-laravel/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/guava/notification-presets-for-laravel/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/guava/notification-presets-for-laravel/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/guava/notification-presets-for-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/guavaCZ/notification-presets-for-laravel/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/guavaCZ/notification-presets-for-laravel/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/guavaCZ/notification-presets-for-laravel/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/guavaCZ/notification-presets-for-laravel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/guava/notification-presets-for-laravel.svg?style=flat-square)](https://packagist.org/packages/guava/notification-presets-for-laravel)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
@@ -81,9 +81,10 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Lukas Frey](https://github.com/GuavaCZ)
+- [Lukas Frey](https://github.com/lukas-frey)
+- [Stepan Mocjak](https://github.com/uolsen
 - [All Contributors](../../contributors)
-- Spatie - Our package notification-presets-for-laravel is a modified version of [Spatie's Package NotificationPresetsForLaravel](https://github.com/spatie/package-notification-presets-for-laravel-laravel)
+- Spatie - Our package skeleton is a modified version of [Spatie's Package Skeleton](https://github.com/spatie/package-skeleton-laravel)
 
 ## License
 
