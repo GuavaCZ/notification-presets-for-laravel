@@ -2,7 +2,7 @@
 
 namespace Guava\NotificationPresetsForLaravel\Tests;
 
-use Guava\NotificationPresetsForLaravel\NotificationPresetsForLaravelServiceProvider;
+use Guava\NotificationPresetsForLaravel\NotificationPresetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -20,7 +20,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            NotificationPresetsForLaravelServiceProvider::class,
+            NotificationPresetsServiceProvider::class,
         ];
     }
 
